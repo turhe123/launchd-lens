@@ -1,0 +1,60 @@
+{
+  "seo_title": "Visual launchd job editor for macOS",
+  "seo_description": "LaunchdLens is a free, open-source macOS app to browse, create and schedule launchd agents with a form editor and live status. No plist hand-editing.",
+  "hero_title_line1": "launchd jobs,",
+  "hero_title_accent": "without the plist.",
+  "hero_sub": "Browse your launch agents, edit them in a validated form, and schedule scripts in plain terms. Press ⌘N to start a new job from a template.",
+  "features_title": "Everything launchd, one window.",
+  "features_sub": "A focused editor for per-user launch agents, built only on Apple frameworks.",
+  "features": [
+    {
+      "icon": "eye",
+      "title": "Live status for every agent",
+      "desc": "The sidebar lists ~/Library/LaunchAgents with a colored dot: running with PID, loaded, failed with last exit code, or not loaded. It refreshes every 3 seconds."
+    },
+    {
+      "icon": "sliders",
+      "title": "Form editor with validation",
+      "desc": "Edit label, program, arguments, run at load, keep alive, intervals, watch paths and log paths. Red notes flag bad labels, missing programs and invalid values as you type."
+    },
+    {
+      "icon": "clock",
+      "title": "Schedules in plain language",
+      "desc": "Presets like every weekday expand into StartCalendarInterval entries, and the app reads them back, for example \"Runs every weekday at 09:00.\""
+    },
+    {
+      "icon": "bolt",
+      "title": "Templates and one-click actions",
+      "desc": "Start from a template for scheduled scripts, login items, keep-alive apps or folder watchers. Then Save, Load, Unload, Run Now or Delete using launchctl."
+    },
+    {
+      "icon": "text",
+      "title": "Raw plist, print and logs",
+      "desc": "Inspect the generated property list and the launchctl print output. The log viewer tails your job's output file and refreshes every 2 seconds."
+    },
+    {
+      "icon": "shield",
+      "title": "Careful with existing files",
+      "desc": "Unknown keys survive a round trip, writes are atomic, and you are warned before overwriting files the app did not create. Deleted jobs are unloaded first and moved to the Trash."
+    }
+  ],
+  "permissions_step": "No special permissions are required.",
+  "faq": [
+    {
+      "q": "Is LaunchdLens really free and open source?",
+      "a": "Yes. It is released under the MIT license and the full source is in the GitHub repository. There are no accounts, no ads and no paid tier; an optional Support button links to Ko-fi."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "None of the privacy-controlled kind: no Accessibility, Screen Recording, Camera, Microphone, Contacts or Location. It reads and writes your LaunchAgents folder and runs /bin/launchctl as your own user. If a job's script touches protected folders, macOS may ask when that job runs."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Your jobs are ordinary .plist files in ~/Library/LaunchAgents, so other tools can read them too. The app's own preferences, such as the label prefix, live in UserDefaults. Nothing is sent over the network."
+    },
+    {
+      "q": "Why isn't the app notarized?",
+      "a": "Notarization requires a paid Apple Developer account, and this is a free project. Right-click the app and choose Open once to get past Gatekeeper, or build it yourself from source with Xcode."
+    }
+  ]
+}

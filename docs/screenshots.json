@@ -1,0 +1,6 @@
+[
+  {"file":"01-editor.png","caption":"The form editor building a nightly backup job, with quick schedule presets, calendar entries and a plain-language summary: \"Runs every weekday at 09:00.\"","alt":"LaunchdLens job editor with a weekday 9:00 calendar schedule"},
+  {"file":"02-templates.png","caption":"Start a new job from a template: run a script on a schedule, run at login, keep an app running, or run when a folder changes.","alt":"New Job sheet listing four launch agent templates"},
+  {"file":"03-agent-list.png","caption":"The sidebar lists every agent in ~/Library/LaunchAgents with live status: running with PID, loaded, failed with last exit code, or not loaded.","alt":"LaunchdLens main window with launch agents and colored status dots"},
+  {"file":"04-settings.png","caption":"Settings for the default label prefix and an optional read-only view of third-party agents in /Library/LaunchAgents.","alt":"LaunchdLens Settings window"}
+]

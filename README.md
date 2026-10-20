@@ -1,5 +1,7 @@
 # LaunchdLens
 
+**🌐 Website:** [turhe123.github.io/launchd-lens](https://turhe123.github.io/launchd-lens/)
+
 Browse, create and schedule launchd jobs with a friendly editor instead of hand-writing property list files.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -33,7 +35,21 @@ Scope: per-user launch agents only. System-wide daemons need a privileged helper
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-editor.png" alt="LaunchdLens job editor with a weekday 9:00 calendar schedule" width="720"></p>
+
+<p align="center"><em>The form editor building a nightly backup job, with quick schedule presets, calendar entries and a plain-language summary: &quot;Runs every weekday at 09:00.&quot;</em></p>
+
+<p align="center"><img src="docs/screenshots/02-templates.png" alt="New Job sheet listing four launch agent templates" width="560"></p>
+
+<p align="center"><em>Start a new job from a template: run a script on a schedule, run at login, keep an app running, or run when a folder changes.</em></p>
+
+<p align="center"><img src="docs/screenshots/03-agent-list.png" alt="LaunchdLens main window with launch agents and colored status dots" width="560"></p>
+
+<p align="center"><em>The sidebar lists every agent in ~/Library/LaunchAgents with live status: running with PID, loaded, failed with last exit code, or not loaded.</em></p>
+
+<p align="center"><img src="docs/screenshots/04-settings.png" alt="LaunchdLens Settings window" width="560"></p>
+
+<p align="center"><em>Settings for the default label prefix and an optional read-only view of third-party agents in /Library/LaunchAgents.</em></p>
 
 ## Install
 
